@@ -31,6 +31,7 @@ def create_doctor_table(conn):
     """)
     conn.commit()
     cursor.close()
+    print('water')
 
 # Function to create patient table if not exists
 def create_patient_table(conn):
